@@ -8,7 +8,7 @@ async function Home() {
     <section>
       <h1>Home</h1>
       <h1>Server side Renderd</h1>
-      <pre>{JSON.stringify(session)}</pre>
+      <h2>{JSON.stringify(session)}</h2>
     </section>
   )
 }
